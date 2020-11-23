@@ -1,4 +1,4 @@
-from django.urls import include, path
+from django.urls import path
 from .views import PlayerViewSet
 
 player_all = PlayerViewSet.as_view({
